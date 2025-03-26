@@ -223,7 +223,7 @@ async def start_command(bot: Client, message: Message):
     random_image_url = random.choice(image_urls)
     caption = (
         "🌟 Welcome Sir 🫡 🌟\n\n"
-        "➽ I am Powerful DRM Uploader Bot 📥\n\n➽ 𝐔𝐬𝐞 /drm for use this Bot.\n\n<pre><code> 𝐌𝐚𝐝𝐞 𝐁𝐲 : ꧁☯︎♡︎𝓐𝓜𝓐𝓝 ♡︎☯︎꧂</code></pre>"
+        "➽ I am Powerful TXT Uploader Bot 📥\n\n➽ 𝐔𝐬𝐞 /aman for use this Bot.\n\n<pre><code> 𝐌𝐚𝐝𝐞 𝐁𝐲 : ꧁☯︎♡︎𝓐𝓜𝓐𝓝 ♡︎☯︎꧂</code></pre>"
     )
     
     await bot.send_photo(
