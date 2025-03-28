@@ -35,7 +35,7 @@ async def show_random_emojis(message):
     emoji_message = await message.reply_text(' '.join(random.choices(emojis, k=1)))
     return emoji_message
     
-credit ="𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎" 
+credit ="𝓐𝓜𝓐𝓝" 
 # Initialize the bot
 bot = Client(
     "bot",
@@ -133,8 +133,8 @@ Busy = InlineKeyboardMarkup(
 
 # Image URLs for the random image feature
 image_urls = [
-    "https://as1.ftcdn.net/jpg/08/06/62/24/1000_F_806622455_deP4bnEHJitNaWExQsCKAYDnTnDWLjVy.jpg"
-    "https://as2.ftcdn.net/jpg/05/23/88/59/1000_F_523885906_HOwhqK2pavrRM8G0ffqnb4UbJirnkhdj.jpg"
+    "https://as1.ftcdn.net/jpg/08/06/62/24/1000_F_806622455_deP4bnEHJitNaWExQsCKAYDnTnDWLjVy.jpg",
+    "https://as2.ftcdn.net/jpg/05/23/88/59/1000_F_523885906_HOwhqK2pavrRM8G0ffqnb4UbJirnkhdj.jpg",
     "https://t3.ftcdn.net/jpg/07/71/16/98/360_F_771169855_DGfwxiKoQHZeKltieXg5k85XosqqNT5b.webp",
     "https://t3.ftcdn.net/jpg/10/34/84/06/360_F_1034840606_QLGwZGLjdCGvqYv0nsgsKNxiS6AJJp6W.webp",
     # Add more image URLs as needed
@@ -164,7 +164,7 @@ async def help_handler(client: Client, m: Message):
         "• 🎓 All Non DRM+AES Encrypted URLs\n"
         "• 🎓 MPD URLs if the key is known (e.g., Mpd_url?key=key XX:XX)</code></pre>\n\n"
         "🚀 You are not subscribed to any plan yet!\n\n"
-        "<pre><code>Contact to 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎 for buy membership.</code></pre>"
+        "<pre><code>Contact to 𝓐𝓜𝓐𝓝 for buy membership.</code></pre>"
     ))
 
 @bot.on_message(filters.command(["help"]))
@@ -223,7 +223,7 @@ async def start_command(bot: Client, message: Message):
     random_image_url = random.choice(image_urls)
     caption = (
         "🌟 Welcome Sir 🫡 🌟\n\n"
-        "➽ I am Powerful TXT Uploader Bot 📥\n\n➽ 𝐔𝐬𝐞 /aman for use this Bot.\n\n<pre><code> 𝐌𝐚𝐝𝐞 𝐁𝐲 : ꧁☯︎♡︎𝓐𝓜𝓐𝓝 ♡︎☯︎꧂</code></pre>"
+        "➽ I am Powerful TXT Uploader Bot 📥\n\n➽ 𝐔𝐬𝐞 /drm for use this Bot.\n\n<pre><code> 𝐌𝐚𝐝𝐞 𝐁𝐲 : ꧁☯︎♡︎𝓐𝓜𝓐𝓝 ♡︎☯︎꧂</code></pre>"
     )
     
     await bot.send_photo(
